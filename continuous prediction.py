@@ -30,4 +30,4 @@ plt.plot(range(168),Y_test.values)
 plt.legend(['Y_pred','Y_true'],loc='best')
 plt.title('West')
 
-![alt text](https://github.com/DisK123456/Time-Series-Forecast/blob/main/prediction%20of%20west.png)
+![alt text](https://github.com/DisK123456/Time-Series-Forecast/blob/main/prediction%20of%20west.png?raw=true)
