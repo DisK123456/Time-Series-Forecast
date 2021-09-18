@@ -7,7 +7,11 @@ Project information: the target of this project is to forecast the hourly electi
 - Hyperparameter tuning by hyperopt
 - Continuous prediction in XGB
 # List of python files:
-- Data_Explore.py : 
-- Feature_Engineering.py : 
+- Data Exploration.py : explore the patern of distribution and correlation 
+- Feature_Engineering.py : add lag features, rolling average features and other related features, drop highly correlated features
+- Data processing for training.py: one-hot-encode and standarize 
+- model selection.py : use hp-sklearn package to initially search for the best model, and use hyperopt package to tune parameters
+- walk-forward model validation.py : walk-forward cross validation strategy to preserve the temporal order of observations
+- continuous prediction.py : use the prediction of current timing to predict next timing because the lag and rolling average features are used
 
 # Plot of Result
