@@ -15,3 +15,4 @@ Project information: the target of this project is to forecast the hourly electi
 - continuous prediction.py : use the prediction of current timing to predict next timing because the lag and rolling average features are used
 
 # Plot of Result
+![Prediction of West region](https://github.com/DisK123456/Time-Series-Forecast/blob/main/prediction_of_west.png?raw=true)
