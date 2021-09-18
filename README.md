@@ -6,7 +6,7 @@ Project information: the target of this project is to forecast the hourly electi
 - Model selection by hp_sklearn
 - Hyperparameter tuning by hyperopt
 - Continuous prediction in XGB
-# A list of python files:
+# List of python files:
 - Data_Explore.py : 
 - Feature_Engineering.py : 
 
